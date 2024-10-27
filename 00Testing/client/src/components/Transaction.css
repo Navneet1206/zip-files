@@ -1,0 +1,101 @@
+/* Transactions Container */
+.transactions-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #4a90e2, #9013fe); /* Gradient background */
+  }
+  
+  .transactions-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .transactions-content h3 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 16px 0;
+  }
+  
+  /* Transactions Grid */
+  .transactions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Transaction Card */
+  .transaction-card {
+    background: linear-gradient(to right, rgba(74, 144, 226, 0.9), rgba(144, 19, 254, 0.9)); /* Matching gradient with transparency */
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    min-width: 270px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .transaction-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Transaction Card Content */
+  .transaction-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .transaction-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  
+  .transaction-info a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .transaction-info p {
+    margin: 4px 0;
+  }
+  
+  /* Transaction Image */
+  .transaction-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 16px;
+  }
+  
+  /* Timestamp */
+  .timestamp {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: -20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timestamp p {
+    color: #37c7da;
+    font-weight: bold;
+    text-align: center;
+  }
+  

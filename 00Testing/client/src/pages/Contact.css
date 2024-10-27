@@ -1,0 +1,78 @@
+/* Contact Page Styles */
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4a90e2, #9013fe); /* Gradient background */
+  }
+  
+  .contact-card {
+    background: linear-gradient(to right, #4a90e2, #9013fe); /* Gradient background for the card */
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px; /* Limit max width */
+  }
+  
+  .contact-title {
+    font-size: 2rem; /* Title size */
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+  }
+  
+  .alert-message {
+    color: #28a745; /* Green color for success message */
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .contact-form {
+    display: grid;
+    gap: 16px; /* Space between inputs */
+  }
+  
+  .contact-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px;
+    background: transparent; /* Transparent background */
+    color: white;
+    outline: none; /* No outline */
+  }
+  
+  .contact-input:focus {
+    border-color: #2952e3; /* Change border color on focus */
+  }
+  
+  .contact-label {
+    color: white; /* Label color */
+    margin-bottom: 8px; /* Space between label and input */
+    display: block; /* Make label block-level */
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2952e3; /* Button background color */
+    color: white;
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.2s ease; /* Transition for hover effect */
+  }
+  
+  .submit-button:hover {
+    background-color: #2546bd; /* Darker shade on hover */
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,19 @@
+/* App.css */
+
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Equivalent to min-h-screen */
+    background-color: #1a1a1a; /* Similar to bg-gray-900 */
+    color: white;
+  }
+  
+  .navbar, .footer {
+    flex-shrink: 0; /* Prevents Navbar and Footer from shrinking */
+  }
+  
+  main {
+    flex: 1; /* Ensures the main content fills available space */
+  }
+  

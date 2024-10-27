@@ -1,0 +1,105 @@
+.services-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4a90e2, #9013fe); /* Example gradient */
+  }
+  
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 16px; /* Adjust padding as needed */
+  }
+  
+  .services-description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .services-title {
+    color: white;
+    font-size: 2rem; /* Adjust font size as needed */
+    padding: 8px 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .services-text {
+    color: white;
+    margin: 8px 0;
+    font-weight: 300;
+    width: 75%; /* Adjust width as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  .services-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .service-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.1); /* Example glassmorphism effect */
+    padding: 12px;
+    margin: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-blue {
+    background-color: #2952E3;
+  }
+  
+  .bg-purple {
+    background-color: #8945F8;
+  }
+  
+  .bg-red {
+    background-color: #F84550;
+  }
+  
+  .service-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .service-title {
+    margin-top: 8px;
+    color: white;
+    font-size: 1.25rem; /* Adjust font size as needed */
+  }
+  
+  .service-subtitle {
+    margin-top: 4px;
+    color: white;
+    font-size: 0.875rem; /* Adjust font size as needed */
+  }
+  

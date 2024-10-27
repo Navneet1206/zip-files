@@ -1,0 +1,179 @@
+/* Container and content styles */
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to right, #4a90e2, #9013fe);
+  color: white;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.welcome-description {
+  font-size: 1.2rem;
+  color: #d0d0d0;
+  margin-top: 10px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+/* Connect Wallet Button */
+.connect-wallet-button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connect-wallet-button:hover {
+  background: linear-gradient(135deg, #6a9bff, #b853ff);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.play-icon {
+  margin-right: 8px;
+  font-size: 1.5rem;
+}
+
+/* Ethereum Card */
+.eth-card-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eth-card {
+  background-color: #2a2f45;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.eth-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.eth-address {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.eth-label {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+/* Input Fields */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-field {
+  margin: 10px 0;
+  padding: 12px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #444;
+  margin: 10px 0;
+}
+
+/* Send Now Button */
+.send-button {
+  background-color: #3d4f7c;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.send-button:hover {
+  background-color: #2e3a5f;
+  transform: translateY(-2px);
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.feature-item {
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #333;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.feature-item-reliability {
+  background-color: #4a90e2;
+}
+
+.feature-item-ethereum {
+  background-color: #9013fe;
+}
+
+.feature-item-web3 {
+  background-color: #6a9bff;
+}
+
+.feature-item-blockchain {
+  background-color: #b853ff;
+}
